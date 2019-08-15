@@ -145,17 +145,17 @@ android {
     signingConfigs {
         debug {
     
-            storeFile file('debug.keystore')
+            storeFile file('test-mike.keystore')
             storePassword 'android'
-            keyAlias 'testapp'
+            keyAlias 'test-mike'
             keyPassword 'android' 
         }
     }
      signingConfigs {
         release {
-            storeFile file('debug.keystore')
+            storeFile file('test-mike.keystore')
             storePassword 'android'
-            keyAlias 'testapp'
+            keyAlias 'test-mike'
             keyPassword 'android' 
         }
     }
